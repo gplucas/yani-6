@@ -1,0 +1,59 @@
+.Header {
+	background-color: white;
+}
+
+.Date {
+	text-align: right;
+}
+
+.Tom {
+	text-align: right;
+	padding: 0px;
+}
+
+h1, h3, h5 { 
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  font-family: Helvetica;
+  padding: 5px;
+} 
+
+body {
+	font-family: Helvetica;
+	margin: auto;
+    width: 50%;
+	padding: 10px;
+}
+
+/* Photo Grid */
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  /lex-wrap: wrap;
+  padding: 0 10px;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  vertical-align: middle;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
